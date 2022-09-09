@@ -1699,3 +1699,78 @@ ul{
     width: 25px !important;
     height: 5px !important;
   }
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.account-login .login-form {
+    padding: 70px;
+    background-color: #fff;
+    border: none;
+}
+.account-login .inner-content {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 8%);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+.table .pricing-table .prhhh p{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 24px;
+}
+#Logo{
+    background-color: #F4F7FA;
+    padding: 60px 0;
+  }
+  #Teams{
+    padding: 120px 0;
+  }
+  #Teams .team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Teams .socialmedia{
+display: flex;
+  }
+  #Teams .socialmedia a{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #151515;
+  }
+  #Teams .team span{
+    color: #727272;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 400;
+  }
+  #Teams .team h4{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .teamc{
+    flex-flow: column;
+  }
+    
